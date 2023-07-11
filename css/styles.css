@@ -2,3 +2,22 @@ body {
     background-color: orangered;
     font-family: 'Poppins', sans-serif;
 }
+
+* {
+    margin: 0;
+}
+
+ul {    
+    background: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.name-title {
+    text-align: center;
+}
+
