@@ -26,12 +26,12 @@ ul > li {
     height: auto;
 }
 
-div.portfolio-hp-banner {
+.job-description-box {
     justify-content: center;
     align-items: center;
 }
 
-.name-job p {
+.job-description-text p {
     width: 50ch;
 }
 
