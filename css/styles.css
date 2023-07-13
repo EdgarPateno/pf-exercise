@@ -35,4 +35,24 @@ ul > li {
     width: 50ch;
 }
 
+/* PORTFOLIO MULTICOLUMN SECTION */
+.portfolio-multicolumn {
+    background: black;
+}
 
+.portfolio-multicolumn-images {
+    justify-content: space-around;
+    display: flex;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.portfolio-multicolumn h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+} 
+
+.portfolio-multicolumn-images img {
+    border-radius: 50%;
+}
