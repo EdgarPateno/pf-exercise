@@ -3,7 +3,6 @@ body {
 }
 
 nav {
-    background: black;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -23,7 +22,7 @@ nav ul > li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav ul li a:hover {
@@ -31,7 +30,7 @@ nav ul li a:hover {
 }
 
 section.portfolio-hp-banner {
-    background-image: url('https://raw.githubusercontent.com/EdgarPateno/pf-exercise/main/images/portfolio-background-1.png');
+    background-image: url('https://github.com/EdgarPateno/pf-exercise/blob/main/images/portfolio-background-2.png?raw=true');
 }
 
 .portfolio-photo img {
@@ -46,33 +45,63 @@ section.portfolio-hp-banner {
 
 .job-description-text p {
     width: 50ch;
-}
-
-/* PORTFOLIO MULTICOLUMN SECTION */
-.portfolio-multicolumn {
-    background: #5CE1E6;
-    padding: 40px 0;
-}
-
-.portfolio-multicolumn-images {
-    justify-content: space-around;
-    display: flex;
-    padding: 40px;
-    border-radius: 50%;
-}
-
-.portfolio-multicolumn h2 {
     color: white;
-    font-size: 40px;
-    text-align: center;
-} 
-
-.portfolio-multicolumn-images img {
-    border-radius: 50%;
 }
 
-.myProject-button a {
-    background: #FFA7E4;
-    padding: 10px 30px;
-    text-decoration: none;
+/* MY PROJECT SECTION */
+
+h2.myProjects-title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+}
+div.myProjects-imgText {
+    row-gap: 50px;
+    display: grid;
+}
+.myProject-Shopify-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.myProject-Shopify-wrapper > div {
+    display: block;
+}
+
+.myProject-Shopify-wrapper > div > p {
+    width: 50ch;
+}
+
+.myProject-CS-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.myProject-CS-wrapper > img {
+    order: 2;
+}
+
+.myProject-CS-wrapper > div > p {
+    width: 50ch;
+}
+
+.myProject-email-marketing-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.myProject-email-marketing-wrapper > div > p {
+    width: 50ch;
+}
+
+.myProject-fb-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
