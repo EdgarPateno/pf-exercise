@@ -48,7 +48,7 @@ section.portfolio-hp-banner {
     color: white;
 }
 
-/* MY PROJECT SECTION */
+/* ------------------------------------- MY PROJECT SECTION --------------------------------------- */
 
 h2.myProjects-title {
     font-size: 60px;
@@ -123,7 +123,7 @@ div.myProject-button a {
     border-radius: 50px;
 }
 
-/* CONTACT ME SECTION */
+/* ------------------------------------- CONTACT ME SECTION --------------------------------------- */
 section.contactMe-wrapper {
     background-image: url('https://github.com/EdgarPateno/pf-exercise/blob/main/images/portfolio-background-2.png?raw=true');
     padding: 50px;
@@ -133,6 +133,14 @@ h2.contactMe-heading {
     color: white;
     font-size: 60px;
     font-weight: 700;
+}
+
+.contactMe-wrapper .form-text-box {
+    column-gap: 40px;
+}
+
+.contactMe-wrapper .form-text-box p {
+    color: white;
 }
 
 input[type=text], select, textarea {
@@ -163,3 +171,48 @@ input[type=text], select, textarea {
     color: white;
   }
   
+  /* ------------------------------------------- FOOTER SECTION ---------------------------------- */
+
+  .portfolio-footer {
+    height: 100px;
+    align-items: center;
+    display: grid;
+    padding: 40px 0;
+  }
+
+  .portfolio-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .portfolio-footer-wrapper > div > span > i {
+    font-size: 25px;
+  }
+
+  .portfolio-footer-wrapper > .help-column > ul > li {
+    list-style-type: none;
+  }
+
+  .portfolio-footer-wrapper > .help-column > ul {
+    padding-left: 0;
+  }
+
+  .portfolio-footer-wrapper > .policies-column > ul > li {
+    list-style-type: none;
+  }
+
+  .portfolio-footer-wrapper > .policies-column > ul {
+    padding-left: 0;
+  }
+
+  .portfolio-footer-wrapper h5 {
+    font-weight: 700;
+  }
+
+  .portfolio-footer-bottom > div {
+    text-align: center;
+  }
+
+  a.businessName-footer-bottom {
+    text-decoration: none;
+  }
