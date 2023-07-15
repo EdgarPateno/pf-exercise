@@ -100,8 +100,25 @@ div.myProjects-imgText {
     width: 50ch;
 }
 
-.myProject-fb-marketing {
+.myProject-fb-marketing-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
+}
+
+.myProject-fb-marketing-wrapper > img {
+    order: 2;
+}
+
+.myProject-fb-marketing-wrapper > div > p {
+    width: 50ch;
+}
+
+div.myProject-button a {
+    background: green;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 50px;
 }
